@@ -1,0 +1,240 @@
+
+ 
+ .nav-link{
+
+
+     transition: color 0.5s ease  !important ;
+
+
+
+
+
+ }
+ 
+ .nav-link:hover{
+
+
+    color:#e89004 !important;
+
+
+
+}
+
+
+/* btn */
+
+
+
+
+
+
+
+.btn{
+
+    transition: box-shadow 0.3s ease , transform 0.3s ease !important ;
+
+}
+
+#btn-cta{
+
+    transform: scale(1);
+
+
+}
+
+
+
+.btn:hover{
+
+
+    box-shadow: 2px 2px 8px 1px rgba(37,211,102,0.67);
+    transform: scale(1.1);
+    
+
+    
+
+}
+
+
+#btn-services{
+
+
+    background-color: #e89004;
+    transform: scale(1);
+    transition: border-color .3s ease,background-color .3s ease, color .3s ease !important  ;
+
+}
+
+#btn-services:hover{
+
+    border-color: #e89004;
+    background-color: rgba(128, 128, 128, 0.199);
+    color: black !important;
+
+    
+
+}
+
+
+
+#carousel-control-prev{
+
+    left: auto;
+    right: 60px;
+    bottom: 20px;
+    top: auto;
+    width: 40px;
+    height: 40px;
+   
+}
+
+#carousel-control-next{
+
+    right: 15px;
+    bottom: 20px;
+    top: auto;
+    width: 40px;
+    height: 40px;
+
+
+}
+
+#ico-team{
+
+        transition: border-color 0.3s ease, color 0.3s ease !important;
+
+}
+
+#ico-team:hover{
+
+
+    border-color: #e89004 !important;
+    color: #e89004 !important;
+
+}
+
+#btn-back-to-top{
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 99;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 3px 4px black;
+    background-color: #e89004 !important;
+    border: none !important;
+
+}
+
+#toggle:focus{
+
+        border: none !important;
+        box-shadow: none;
+     
+
+
+}
+
+/* btn */
+
+
+/* Link */
+
+
+#link-fservices{
+
+        transition: color 0.5s ease, transform 0.5s ease !important ;
+
+}
+
+#link-fservices:hover{
+
+    color: #e89004 !important;
+    transform: translateX(10px);
+
+
+
+}
+
+
+#link-f2services{
+
+        transition: color 0.5s ease, transform 0.5s ease !important ;
+
+}
+
+#link-f2services:hover{
+
+    color: #e89004 !important;
+    
+
+
+
+}
+
+
+/* Link */
+
+
+
+
+
+
+
+
+
+.carousel-item img{
+
+
+        height: 500px !important;
+        object-fit: cover;
+        object-position: center;
+        width: 100% !important;
+
+}
+
+.carousel-item{
+
+
+        transition: transform 1.2s ease-in-out !important;
+
+
+}
+
+
+
+/* @media (min-width:768px) {
+
+
+    #carrossel .carousel-item{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    } 
+
+    #carrossel .carousel-item{
+
+        margin-right: 0;
+        flex: 0 0 33.333333;
+        display: block;
+
+    }
+    
+} */
+
+
+
+/* .wow{
+
+    visibility: hidden;
+} */

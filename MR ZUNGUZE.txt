@@ -1,0 +1,19 @@
+Requisitisos
+
+O site deve permitir ao cliente ter informações da empresa (quem somos ? o que fazemos ? nossa visão)
+
+
+O site deve permitir ao cliente  ver depoimentos
+O site deve permitir ao cliente  entrar em contacto com a empresa (CTA)
+
+O site deve permitir ao cliente  ver os serviços da empresa.
+
+O site deve permitir ao cliente ver os serviços e que ao clicar no serviço especifico, lhe leve para o whatsapp de acordo com o serviço, a informação deve chegar com o serviço específico solicitado. o cliente deve ter informações detalhadas dos serviços.
+
+
+O site deve permitir ao cliente  ver a equipe.
+
+O site deve permitir ao cliente  ver os preços 
+
+
+
