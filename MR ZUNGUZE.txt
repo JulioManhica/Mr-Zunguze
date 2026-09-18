@@ -3,7 +3,8 @@ Requisitisos
 O site deve permitir ao cliente ter informações da empresa (quem somos ? o que fazemos ? nossa visão)
 
 
-O site deve permitir ao cliente  ver depoimentos
+O site deve permitir ao cliente  ver depoimentos
+
 O site deve permitir ao cliente  entrar em contacto com a empresa (CTA)
 
 O site deve permitir ao cliente  ver os serviços da empresa.
@@ -14,6 +15,158 @@ O site deve permitir ao cliente ver os serviços e que ao clicar no serviço esp
 O site deve permitir ao cliente  ver a equipe.
 
 O site deve permitir ao cliente  ver os preços 
+
+
+
+rascunho
+
+
+                    <!-- CAROUSSEL SERVICES -->
+
+                    <div class=" carousel slide mt-5" id="carrossel" data-bs-ride="carousel" data-bs-touch="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active ">
+                                <div class="row g-4 d-flex flex-row flex-nowrap align-items-center justify-content-end overflow-x-auto">
+    
+                                    <div class="col-md-4 col-10 flex-shrink-0">
+                                        <div class="card w-100 bg-secondary-subtle ">
+                                            <div class="card-body" style="height: 350px !important;">
+                                                
+                                                    <i class="bi bi-graph-up-arrow fs-1 p-2 " style="background-color: #e89004;"></i>
+                                                    <h1 class="fs-3">Lorem ipsum dolor.</h1>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolores ut at nisi odit eveniet rerum nesciunt inventore sed, beatae placeat magnam quisquam itaque sit quibusdam fuga, delectus mollitia aperiam!</p>
+
+                                                    <p>1</p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card1 -->
+                                    <div class="col-md-4 col-10 flex-shrink-0">
+                                        <div class="card w-100 bg-secondary-subtle " style="height: 350px !important;">
+                                            <div class="card-body  ">
+
+                                                    <i class="bi bi-graph-up-arrow fs-1"></i>
+                                                    <h1 class="fs-3">Lorem ipsum dolor.</h1>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolores ut at nisi odit eveniet rerum nesciunt inventore sed, beatae placeat magnam quisquam itaque sit quibusdam fuga, delectus mollitia aperiam!</p>
+
+                                                      <p>2</p>
+                                               
+                                                   
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card1 -->
+                                    <div class="col-md-4 col-10 flex-shrink-0">
+                                        <div class="card w-100 bg-secondary-subtle " style="height: 350px !important;">
+                                            <div class="card-body  ">
+
+                                                    <i class="bi bi-graph-up-arrow fs-1"></i>
+                                                    <h1 class="fs-3">Lorem ipsum dolor.</h1>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolores ut at nisi odit eveniet rerum nesciunt inventore sed, beatae placeat magnam quisquam itaque sit quibusdam fuga, delectus mollitia aperiam!</p>
+
+
+                                                      <p>3</p>
+                                               
+                                                   
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card1 -->
+                                </div>
+                                
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <div class="row d-flex flex-row flex-nowrap align-items-center justify-content-end overflow-x-auto  ">
+                                    <div class="col-md-4 col-10 flex-shrink-0">
+                                        <div class="card w-100 bg-secondary-subtle ">
+                                            <div class="card-body " style="height: 350px !important;">
+
+                                                 <i class="bi bi-graph-up-arrow fs-1"></i>
+                                                    <h1 class="fs-3">Lorem ipsum dolor.</h1>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolores ut at nisi odit eveniet rerum nesciunt inventore sed, beatae placeat magnam quisquam itaque sit quibusdam fuga, delectus mollitia aperiam!</p>
+
+                                                      <p>4</p>
+                                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- car1 -->
+                                    <div class="col-md-4 col-10 flex-shrink-0">
+                                        <div class="card  w-100 bg-secondary-subtle">
+                                            <div class="card-body " style="height: 350px !important;">
+
+                                                 <i class="bi bi-graph-up-arrow fs-1"></i>
+                                                    <h1 class="fs-3">Lorem ipsum dolor.</h1>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolores ut at nisi odit eveniet rerum nesciunt inventore sed, beatae placeat magnam quisquam itaque sit quibusdam fuga, delectus mollitia aperiam!</p>
+
+                                                      <p>5
+
+
+                                                      </p>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- car1 -->
+                                    <div class="col-md-4 col-10">
+                                        <div class="card  w-100 bg-secondary-subtle">
+                                            <div class="card-body " style="height: 350px !important;">
+
+                                                 <i class="bi bi-graph-up-arrow fs-1 p-3" style="background-color: #e89004;"></i>
+                                                    <h1 class="fs-3">Lorem ipsum dolor.</h1>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolores ut at nisi odit eveniet rerum nesciunt inventore sed, beatae placeat magnam quisquam itaque sit quibusdam fuga, delectus mollitia aperiam!</p>
+
+
+                                                      <p>6</p>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- car1 -->
+                                </div>
+
+                            </div>
+
+                           
+
+                            
+
+                        </div>
+
+
+                        <div class="container py-5">
+                            <button class="carousel-control-prev float-end" id="carousel-control-prev"  data-bs-target="#carrossel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon bg-black rounded-5 p-4 me-4  " aria-hidden="true" style="background-color: #e89004 !important;"></span>
+                                <span class="visually-hidden">Previus</span>
+                            </button>
+                            <button class="carousel-control-next"  id="carousel-control-next" data-bs-target="#carrossel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon bg-black rounded-5 p-4  " style="background-color: #e89004 !important;" aria-hidden="true"></span>
+                                <span class="visually-hidden ">Next</span>
+                            </button>
+                        </div>
+
+ 
+
+                    </div>
+
+
+
+
+SERVICES
+
+Licenciamento Empresarial
+Auditoria & Controlo
+Gestão Empresarial
+
+Procurment & Logística
+Contabilidade & Fiscalidade
+Desenvolvimento de Sites & Softwares
+Design
 
 
 
