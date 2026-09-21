@@ -358,7 +358,7 @@
                         <!-- Serviço 1 -->
                         <div class="d-flex flex-row-reverse  gap-5 align-items-start mb-4 ">
                             <div class="me-3 order-1">
-                            <h5 class="fw-bold text-uppercase text-start">Licenciamento Empresarial</h5>
+                            <h5 class="fw-bold text-uppercase text-start"><a href="" class="text-decoration-none" style="color:#e89004">Licenciamento Empresarial</a></h5>
                             <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipiscing elit Inteiro adipiscing erat.</p>
                             </div>
                             <!-- Ícone / Imagem (Substitua o src pelo seu ícone) -->
@@ -368,7 +368,7 @@
                         <!-- Serviço 2 -->
                         <div class="d-flex flex-row-reverse gap-5 align-items-start mb-4 ">
                             <div class="me-3 order-1">
-                            <h5 class="fw-bold text-uppercase text-start">Auditoria & Controlo</h5>
+                            <h5 class="fw-bold text-uppercase text-start"><a href="" class="text-decoration-none" style="color:#e89004">Auditoria & Controlo</a></h5>
                             <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipiscing elit Inteiro adipiscing erat.</p>
                             </div>
                             <i class="bi bi-tools order-2 display-4"></i>
@@ -377,7 +377,7 @@
                         <!-- Serviço 3 -->
                         <div class="d-flex flex-row-reverse  gap-5 align-items-start mb-4 ">
                             <div class="me-3 order-1">
-                            <h5 class="fw-bold text-uppercase text-start">Gestão Empresarial</h5>
+                            <h5 class="fw-bold text-uppercase text-start"><a href="" class="text-decoration-none" style="color:#e89004">Gestão Empresarial</a></h5>
                             <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipiscing elit Inteiro adipiscing erat.</p>
                             </div>
                             <i class="bi bi-palette2 order-2 display-4"></i>
@@ -400,7 +400,7 @@
                             
                             <i class="bi bi-building-up me-3 display-4"></i>
                             <div>
-                                <h5 class="fw-bold text-uppercase">Contabilidade & Fiscalidade</h5>
+                                <h5 class="fw-bold text-uppercase"><a href="" class="text-decoration-none" style="color:#e89004">Contabilidade & Fiscalidade</a></h5>
                                 <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipiscing elit Inteiro adipiscing erat.</p>
                             </div>
                         </div>
@@ -410,7 +410,7 @@
                             <!-- <img src="caminho-do-seu-icone5.png" alt="Ícone" class="me-3" style="width: 50px; height: auto;"> -->
                             <i class="bi bi-repeat me-3 display-4"></i>
                             <div>
-                            <h5 class="fw-bold text-uppercase">Procurment & Logística</h5>
+                            <h5 class="fw-bold text-uppercase"><a href="" class="text-decoration-none" style="color:#e89004">Procurment & Logística</a></h5>
                             <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipiscing elit Inteiro adipiscing erat.</p>
                             </div>
                         </div>
@@ -419,7 +419,7 @@
                         <div class="d-flex align-items-start mb-4 gap-4">
                         <i class="bi bi-shield-plus me-3 display-4"></i>
                             <div>
-                            <h5 class="fw-bold text-uppercase">Desenvolvimento de Sites/Softwares & Design</h5>
+                            <h5 class="fw-bold text-uppercase"><a href="" class="text-decoration-none" style="color:#e89004">Desenvolvimento de Sites/Softwares & Design</a></h5>
                             <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipiscing elit Inteiro adipiscing erat.</p>
                             </div>
                         </div>
@@ -435,8 +435,18 @@
 
             <!-- DEPOIMENTOS -->
 
-               
+                <section class=" bg-dark py-5">
+                    
+                    <div class="container">
 
+                        <h2 class="text-white py-3">Depoimentos</h2>
+
+                        <div id="lista-depoimentos" class="row g-4">
+                    
+                        </div>
+                
+                    </div>
+                </section>
 
 
 
@@ -445,7 +455,7 @@
 
             <!-- TEAM -->
 
-             <section class="equipe bg-body-tertiary">
+             <section class="equipe ">
 
                 <div class="container py-5">
 
@@ -722,6 +732,53 @@
 
 
         }
+
+
+
+                        const depoimentos = [
+                {
+                    nome: "Nome do Cliente",
+                    cargo: "Empresa ou cargo",
+                    foto: "img/cliente1.jpg", 
+                    estrelas: 5,
+                    texto: "Frase curta e específica sobre a experiência com o serviço."
+                },
+                {
+                    nome: "Nome do Cliente 2",
+                    cargo: "Empresa ou cargo",
+                    foto: "img/cliente2.jpg",
+                    estrelas: 5,
+                    texto: "Outro depoimento curto e direto."
+                },
+                {
+                    nome: "Nome do Cliente 3",
+                    cargo: "Empresa ou cargo",
+                    foto: "",
+                    estrelas: 4,
+                    texto: "Terceiro depoimento, também objetivo."
+                }
+                ];
+
+
+
+                const container = document.getElementById("lista-depoimentos");
+
+                depoimentos.forEach(dep => {
+
+                const card = document.createElement("div");
+                card.className = "col-md-4";
+                card.innerHTML = `
+                    <div class="card h-100 p-3">
+                    <img class="img-fluid" src="img/Sample_User_Icon.png" alt="" style="height:100px; width:100px;"> </img>
+                    <p>"${dep.texto}"</p>
+                    <div class="mt-auto">
+                        <strong>${dep.nome}</strong><br>
+                        <small>${dep.cargo}</small>
+                    </div>
+                    </div>
+                `;
+                container.appendChild(card);
+                });
 
     </script>
 
