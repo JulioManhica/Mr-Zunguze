@@ -1,8 +1,19 @@
 html, body {
-    overflow-x: hidden;
-    max-width: 100%;
+  
     font-family: 'Inter', sans-serif;
+    max-width: 100%;
+    overflow-x: clip ;
 }
+
+#circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #e89004;
+    line-height: 30px;
+    }
+
+
 
 
 h1, h2, h3, h4, .navbar-brand {
